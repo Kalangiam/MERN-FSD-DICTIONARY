@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Synonym Finder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+
+                <h1>FIND THE SYNONYM</h1>
+                <h3
+                    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">If
+                    there is no Synonym provided, part of speech would be displayed</h3>
+                <div>
+                    <img
+                        src="https://www.pngkit.com/png/full/135-1359480_try-our-interactive-dictionary-dictionary-png.png"
+                        alt="image" height="110px">
+                </div>
+                <div class="form">
+                    <input type="text" id="wordInput" placeholder="Type a word">
+                    <button onclick="fetchSynonyms()">Get Synonym</button>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="inner-container">
+                    <ol id="synonymsList"></ol>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

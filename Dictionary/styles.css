@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color:rgb(44, 214, 44);
+    border-radius: 3px;
+
+}
+.inner-container{
+    border: 2px solid black;
+}
